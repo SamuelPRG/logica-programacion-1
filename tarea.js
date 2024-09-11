@@ -19,15 +19,16 @@ function ordenarNumeros() {
     centro = num3;
   }
 
+  if (num1 === num2 && num2 === num3) {
+    console.log("Los números son iguales.");
+  }
+  else {
   console.log("Números ordenados de mayor a menor:");
   console.log(mayor, centro, menor);
   console.log("Números ordenados de menor a mayor:");
   console.log(menor, centro, mayor);
-
-
-  if (num1 === num2 && num2 === num3) {
-    console.log("Los números son iguales.");
   }
+  return("")
 }
 
 console.log(ordenarNumeros());
